@@ -1,0 +1,43 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 237);
+    margin: -8px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 75px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
