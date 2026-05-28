@@ -1,5 +1,9 @@
 body {
     font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .header {
@@ -40,4 +44,11 @@ body {
     color: black;
     font-size: 18px;
     font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(237, 237, 237);
+    margin: -8px;
 }
